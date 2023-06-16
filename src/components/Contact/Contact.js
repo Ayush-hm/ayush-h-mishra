@@ -50,7 +50,7 @@ const Contact = () => {
           <Col md="6" lg="12" className="mb-5 d-flex">
             <h1>Contact</h1>
           </Col>
-          <Col md="6" lg="12" className="mb-5 d-flex">
+          <Col md="6" lg="12" className="mb-5 d-flex contact-container">
             <form ref={form} onSubmit={sendEmail}>
               <table>
                 <tbody>
