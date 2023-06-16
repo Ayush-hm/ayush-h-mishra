@@ -107,3 +107,10 @@ td textarea{
 .icon-color{
   color: #0c0c6f;
 }
+
+@media screen and (max-width: 767px) {
+    #contact-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
