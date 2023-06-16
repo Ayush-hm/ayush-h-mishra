@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+  }
+  
+  .skill-container > div {
+    flex-basis: 30%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .skill-container > div {
+    flex-basis: 40%;
+    margin-bottom: 1rem;
+  }
+}
+

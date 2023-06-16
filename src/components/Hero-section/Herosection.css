@@ -1,0 +1,62 @@
+.hero-section{
+    padding-top: 150px;
+}
+
+.salut{
+    opacity: 75%;
+    color: #2528d4;
+    font-size: 2rem;
+    font-family: "Quicksand" ;
+    font-weight: 600;
+}
+
+.name{
+    font-size: 4.5rem;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.name span{
+    color: #0c0c6f;
+}
+
+.desc{
+    font-size: 2.5rem;
+    color: #2528d4;
+}
+
+.desc-more{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #16164f;
+}
+
+.hero-image{
+    /* margin-top: 4rem; */
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    background-color: midnightblue;
+    margin-left: auto;
+}
+
+.hero-image .myimg{
+    border-radius: 10px;
+    background-color: transparent white;
+    opacity: 85%;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-section #hero-container #hero-container-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .hero-image{
+        margin-left: 0;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        width: 350px;
+    }
+
+}
