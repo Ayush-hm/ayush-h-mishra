@@ -3,7 +3,7 @@ import './Herosection.css'
 import { Container, Row, Col } from 'reactstrap'
 import { Fade, Slide } from "react-awesome-reveal";
 import Resume from '../../Assets/Resume.pdf'
-import MyImg from '../../Assets/photo.png'
+// import MyImg from '../../Assets/photo.png'
 
 const Herosection = () => {
   
@@ -32,7 +32,7 @@ const Herosection = () => {
         <Col lg={6} md={6} sm={12}>
           <Slide direction='right' duration={2000}>
           <div className="hero-image">
-            <img src={MyImg} alt="" className='w-100 myimg' />
+            {/* <img src={MyImg} alt="" className='w-100 myimg' /> */}
           </div>
           </Slide>
         </Col>
