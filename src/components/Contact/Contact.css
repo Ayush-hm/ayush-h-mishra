@@ -110,7 +110,7 @@ td textarea{
 
 @media screen and (max-width: 767px) {
     #contact-container{
-        display: flex;
-        flex-direction: column-reverse;
+        display: none;
+        /* flex-direction: column-reverse; */
     }
 }
