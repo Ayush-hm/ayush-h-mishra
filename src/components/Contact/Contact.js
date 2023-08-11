@@ -50,7 +50,7 @@ const Contact = () => {
           <Col md="6" lg="12" className="mb-5 d-flex">
             <h1>Contact</h1>
           </Col>
-          <Col md="6" lg="12" className="mb-5 d-flex contact-container">
+          <Col md="6" lg="12" className="mb-5 d-flex contact-container justify-content-center rounded-5">
             <form ref={form} onSubmit={sendEmail}>
               <table>
                 <tbody>
@@ -93,34 +93,23 @@ const Contact = () => {
                   </tr>
                   <tr>
                     <td colSpan="5" align="center">
-                      <button type="submit" value="Send" className="button-primary" style={{ color: 'aliceblue' }}>
-                        SUBMIT
+                      <button type="submit" value="Send" className="button-primary" style={{ color: 'aliceblue', background:'#0C0C6F' }}>
+                        Send Message
                       </button>
                     </td>
                   </tr>
                 </tbody>
               </table>
             </form>
-            <div className="contact-body justify-content-lg-end column-gap-md-4" style={{ marginLeft: '25rem', marginTop: '5rem' }}>
-              <div className="contact-item d-flex flex-row align-items-center">
-                <FontAwesomeIcon icon={faEnvelope} className="fa-xl mt-4 mx-2 icon-color" />
-                <span className='mt-3 ' style={{ fontFamily: "OpenSans", fontSize: "20px", marginLeft:"5px" }}>h.ayushm@gmail.com</span>
-              </div>
-              <br />
-              <div className="contact-item d-flex flex-row align-items-center">
-                <FontAwesomeIcon icon={faPhone} className="fa-2x mt-4 mx-2 icon-color" />
-                <span className='mt-3 ' style={{ fontFamily: "OpenSans", fontSize: "20px", marginLeft:"5px"  }}>6376268571</span>
-              </div>
-              <br />
-              <div className="contact-item d-flex flex-row align-items-center">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-2x mt-4 mx-2 icon-color" />
-                <span className='mt-3 ' style={{ fontFamily: "OpenSans", fontSize: "20px", marginLeft:"5px"  }}>Mumbai, India</span>
-              </div>
+          </Col>
+          <Col className='justify-content-center d-flex'>
+            <div className="social-name mt-4 ">
+                  <h2>Ayush Hrishikesh Mishra</h2>
             </div>
           </Col>
-          <Col md={6} lg={12} className='d-flex justify-content-center my-4'>
-            <div className="social-container">
-              <div className="social-body">
+          <Col md={6} lg={12} className='d-flex justify-content-evenly my-2'>
+            <div className="social-container">     
+              <div className="social-body align-items-center">
                 <a href="h.ayushm@gmail.com" className="Social-item">
                   <FontAwesomeIcon icon={faEnvelope} className="fa-2xl mt-4 mx-2 icon-color" />
                 </a>
@@ -134,9 +123,10 @@ const Contact = () => {
                   <FontAwesomeIcon icon={faGithub} className="fa-2xl mt-4 mx-2 icon-color" />
                 </a>
               </div>
-              <p className='justify-content-center mx-2 mt-3 mb-0 text-blue'> <center>Thanks for Exploring</center>  </p>
+              <p className='justify-content-center mt-2'> <center>Thanks for Exploring</center>  </p>
             </div>
           </Col>
+          <p className='justify-content-center mt-3 mb-4'> <center> &copy;Ayush Hrishikesh Mishra. All Rights Reserved. </center>  </p>
         </Row>
       </Container>
     </section>
