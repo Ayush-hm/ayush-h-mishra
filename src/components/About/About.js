@@ -29,7 +29,7 @@ const About = () => {
                                     <li>Natural Language Processing</li>
                                     {/* <li>Deep Learning</li> */}
                                     <li>Web Development</li>
-                                    <li>Internet of Things</li>
+                                    {/* <li>Internet of Things</li> */}
                                     <li></li>
                                 </ul>
                             </div>

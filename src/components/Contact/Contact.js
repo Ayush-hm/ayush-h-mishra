@@ -5,7 +5,6 @@ import '../Contact/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -44,14 +43,14 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" >
       <Container>
         <Row className='d-flex'>
           <Col md="6" lg="12" className="mb-5 d-flex">
             <h1>Contact</h1>
           </Col>
           <Col md="6" lg="12" className="mb-5 d-flex contact-container justify-content-center rounded-5">
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className='contact-form'>
               <table>
                 <tbody>
                   <tr>
@@ -93,7 +92,7 @@ const Contact = () => {
                   </tr>
                   <tr>
                     <td colSpan="5" align="center">
-                      <button type="submit" value="Send" className="button-primary" style={{ color: 'aliceblue', background:'#0C0C6F' }}>
+                      <button type="submit" value="Send" className="btn">
                         Send Message
                       </button>
                     </td>
