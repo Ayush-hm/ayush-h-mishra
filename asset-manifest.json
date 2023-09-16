@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ayush-h-mishra/static/css/main.4380e142.css",
+    "main.js": "/ayush-h-mishra/static/js/main.1565ad1a.js",
+    "static/js/496.2facdb19.chunk.js": "/ayush-h-mishra/static/js/496.2facdb19.chunk.js",
+    "static/media/remixicon.svg?t=1690730386070": "/ayush-h-mishra/static/media/remixicon.db77551b8efc76571c4f.svg",
+    "static/media/Tech_for_visually_impaired.png": "/ayush-h-mishra/static/media/Tech_for_visually_impaired.cafed505c00d120aebfa.png",
+    "static/media/NewsWave.png": "/ayush-h-mishra/static/media/NewsWave.1099ad84e58567ee0a69.png",
+    "static/media/Savoura.png": "/ayush-h-mishra/static/media/Savoura.0b9fe7e0828171bf82f2.png",
+    "static/media/Resume.pdf": "/ayush-h-mishra/static/media/Resume.19a417c1a1734ddc4dcb.pdf",
+    "static/media/remixicon.eot?t=1690730386070": "/ayush-h-mishra/static/media/remixicon.53ec05edb4b6864b45b1.eot",
+    "static/media/remixicon.ttf?t=1690730386070": "/ayush-h-mishra/static/media/remixicon.4aa0fd158658e2a40e79.ttf",
+    "static/media/remixicon.woff?t=1690730386070": "/ayush-h-mishra/static/media/remixicon.affd60ca37df38cfee4f.woff",
+    "static/media/remixicon.woff2?t=1690730386070": "/ayush-h-mishra/static/media/remixicon.821a773710130bcf4674.woff2",
+    "static/media/NexusGear.png": "/ayush-h-mishra/static/media/NexusGear.b83d6b8688e19e1e2681.png",
+    "static/media/mongodb.svg": "/ayush-h-mishra/static/media/mongodb.5ea7c65e46d695b1a357ec1399f38aef.svg",
+    "static/media/nodejs.svg": "/ayush-h-mishra/static/media/nodejs.3a4bfcd084800b89b5a2035d3d11e6dd.svg",
+    "static/media/express.svg": "/ayush-h-mishra/static/media/express.1862ae411f8c1bde13179f1713fd3d06.svg",
+    "static/media/react.svg": "/ayush-h-mishra/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
+    "static/media/java.svg": "/ayush-h-mishra/static/media/java.496ae22e71a1b8c1e3adbed3ae7072a5.svg",
+    "static/media/python.svg": "/ayush-h-mishra/static/media/python.8cfa0a9db040ecc11a3017ff5536ef5e.svg",
+    "static/media/tailwindcss.svg": "/ayush-h-mishra/static/media/tailwindcss.15daf79d661d829156a0d49c09b988bc.svg",
+    "static/media/js.svg": "/ayush-h-mishra/static/media/js.ba25d9c6e2b07eb92c6b2c1f19a11b0b.svg",
+    "index.html": "/ayush-h-mishra/index.html",
+    "main.4380e142.css.map": "/ayush-h-mishra/static/css/main.4380e142.css.map",
+    "main.1565ad1a.js.map": "/ayush-h-mishra/static/js/main.1565ad1a.js.map",
+    "496.2facdb19.chunk.js.map": "/ayush-h-mishra/static/js/496.2facdb19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4380e142.css",
+    "static/js/main.1565ad1a.js"
+  ]
+}
