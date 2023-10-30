@@ -40,8 +40,8 @@
     &:hover .card-body {
         display: block;
         opacity: 1;
-        background: rgb(63,94,251);
-        background: linear-gradient( rgb(10, 31, 136) 0%, rgb(152, 151, 219) 100%);
+        background: rgb(3,0,56);
+        background: linear-gradient(180deg, rgba(3,0,56,1) 0%, rgba(9,9,121,1) 52%, rgba(0,117,203,1) 100%);
     }
 }
 
@@ -52,7 +52,7 @@
     }
 
 .card .card-title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Quicksand" sans-serif;
     font-size: 25px;
     font-weight: 500;
 }

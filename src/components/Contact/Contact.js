@@ -122,10 +122,10 @@ const Contact = () => {
                   <FontAwesomeIcon icon={faGithub} className="fa-2xl mt-4 mx-2 icon-color" />
                 </a>
               </div>
-              <p className='justify-content-center mt-2'> <center>Thanks for Exploring</center>  </p>
+              <p className='justify-content-center mt-2 credits'> <center>Thanks for Exploring</center>  </p>
             </div>
           </Col>
-          <p className='justify-content-center mt-3 mb-4'> <center> &copy;Ayush Hrishikesh Mishra. All Rights Reserved. </center>  </p>
+          <p className='justify-content-center mt-3 mb-4 credits'> <center> &copy;Ayush Hrishikesh Mishra. All Rights Reserved. </center>  </p>
         </Row>
       </Container>
     </section>

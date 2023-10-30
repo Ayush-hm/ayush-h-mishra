@@ -1,3 +1,7 @@
 .carousel-root .carousel .control-dots .dot{
     background-color: blue;
 }
+
+.selected{
+    background-color: transparent;
+}

@@ -10,6 +10,7 @@ import Express from '../../Assets/Skill/express.svg'
 import Reactjs from '../../Assets/Skill/react.svg'
 import Tailwindcss from '../../Assets/Skill/tailwindcss.svg'
 import MongoDB from '../../Assets/Skill/mongodb.svg'
+import Torch from '../../Assets/Skill/pytorch.svg'
 
 const Skills = () => {
   return <section className='skills-section d-flex mb-5' id="skills">
@@ -27,6 +28,9 @@ const Skills = () => {
               <img src={Python} alt="Python" height={75} />
             </div>
             <div className='d-flex mb-3'>
+              <img src={Torch} alt="Pytorch" height={80} />
+            </div>
+            <div className='d-flex mb-3'>
               <img src={JS} alt="JavaScript" height={80} />
             </div>
             <div className='d-flex mb-3'>
@@ -36,14 +40,12 @@ const Skills = () => {
               <img src={Node} alt="node.js" height={80} />
             </div>
             <div className='d-flex mb-3'>
-              <img src={Express} alt="express.js" height={80} />
-            </div>
-            <div className='d-flex mb-3'>
               <img src={Tailwindcss} alt="tailwindcss" height={80} />
             </div>
-            <div className='d-flex mb-3 pt-3'>
+            <div className='d-flex mb-3'>
               <img src={MongoDB} alt="MongoDB" height={50} />
             </div>
+            
           </Zoom>
         </Col>
       </Row>

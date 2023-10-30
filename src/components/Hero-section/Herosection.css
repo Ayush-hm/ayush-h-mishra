@@ -3,8 +3,7 @@
 }
 
 .salut{
-    opacity: 75%;
-    color: #2528d4;
+    color: #ffffff;
     font-size: 2rem;
     font-family: "Quicksand" ;
     font-weight: 600;
@@ -17,7 +16,7 @@
 }
 
 .name span{
-    color: #0c0c6f;
+    color: #5500ff;
 }
 
 .desc{
@@ -30,7 +29,7 @@
 .desc-more{
     font-size: 1.1rem;
     font-weight: 500;
-    color: #16164f;
+    color: #cbd7fc;
 }
 
 .hero-image{
@@ -67,7 +66,7 @@
 .btn {
   --border: 2px;    /* the border width */
   --slant: 0.7em;   /* control the slanted corners */
-  --color: #0c0c6f; /* the color */
+  --color: #cbd7fc; /* the color */
   
   font-size: large;
   padding: 0.4em 1.2em;

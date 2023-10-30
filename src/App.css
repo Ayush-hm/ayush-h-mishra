@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #F4F5FA;
+    background: #010004;
 
 }
 
@@ -18,7 +18,7 @@ html{
 }
 
 h1, h2, h3, h4, h6{
-  color: #0c0c6f;
+  color: #6363f5;
   /* font-family: "Lato", sans-serif; */
   margin: 0;
 }
@@ -29,7 +29,7 @@ h1, h2{
 }
 
 p{
-  opacity: 75%;
+  opacity: 90%;
   font-size: 1rem;
   font-family: "Rubik", sans-serif;
 }
@@ -48,10 +48,4 @@ a:hover{
   color: unset;
 }
 
-.btn{
-  /* background-color: #3f41d3; */
-  background-color: #0c0c6f;
-  color: whitesmoke;
-  opacity: 80%;
-}
 

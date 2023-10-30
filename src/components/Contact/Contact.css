@@ -39,7 +39,7 @@ td textarea{
 .btn {
   --border: 2px;    /* the border width */
   --slant: 0.7em;   /* control the slanted corners */
-  --color: #0c0c6f; /* the color */
+  --color: #cbd7fc; /* the color */
   
   font-size: large;
   padding: 0.4em 1.2em;
@@ -72,7 +72,7 @@ td textarea{
 .btn:hover,
 .btn:active{
   background-size: 100% 100%;
-  color: #fff;
+  color: #0a0238;
   --t: 0.2s 0.1s;
 }
 
@@ -152,4 +152,8 @@ td textarea{
         display: none;
         /* flex-direction: column-reverse; */
     }
+}
+
+.credits{
+  color: #cbd7fc;
 }
